@@ -7,6 +7,11 @@
   padding: 0;
 }
 
+.section__pic-container img {
+  border-radius: 200px;
+}
+
+
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -187,6 +192,9 @@ section {
 
 .section__text__p1 {
   text-align: center;
+  /* /* margin-top: 20ex; */
+  padding-top: 70px;
+  font-size: 2rem; 
 }
 
 .section__text__p2 {
@@ -194,9 +202,11 @@ section {
   margin-bottom: 1rem;
 }
 
-.title {
+.title {                    
   font-size: 3rem;
   text-align: center;
+  margin:20px;
+  padding:50px;
 }
 
 #socials-container {
@@ -283,7 +293,7 @@ section {
   display: flex;
 }
 
-.about-pic {
+.manan {
   border-radius: 2rem;
 }
 
@@ -331,6 +341,7 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  
 }
 
 .article-container {
@@ -367,7 +378,7 @@ article .icon {
 .project-img {
   border-radius: 2rem;
   width: 90%;
-  height: 90%;
+  height: 100%;
 }
 
 .project-title {
